@@ -90,16 +90,16 @@ async function bindDocument() {
   let editor = null, cancelled = false;
   // Tiptap focus() defers view.focus() to requestAnimationFrame. Toolbar
   // selection must be visible now, and must not refocus after later input.
-  const focusedChain = () => {
+  const syncTextSelection = () => {
     // Native keyboard selectionchange may still be queued when a toolbar
     // control fires. Preserve the visible range before focus restores state.
     const view=editor.view,selection=window.getSelection(),model=editor.state.selection;
     if(!model.node&&!model.$anchorCell&&selection?.anchorNode&&selection?.focusNode&&view.dom.contains(selection.anchorNode)&&view.dom.contains(selection.focusNode)){
       const anchor=view.posAtDOM(selection.anchorNode,selection.anchorOffset),head=view.posAtDOM(selection.focusNode,selection.focusOffset);
-      if(anchor!==model.anchor||head!==model.head)editor.commands.setTextSelection({from:Math.min(anchor,head),to:Math.max(anchor,head)});
+      if(anchor!==model.anchor||head!==model.head)editor.commands.setTextSelection({from:anchor,to:head});
     }
-    view.focus();return editor.chain();
   };
+  const focusedChain = () => { syncTextSelection();editor.view.focus();return editor.chain(); };
   viewCleanup = () => {
     cancelled = true;
     editor?.destroy();
@@ -140,7 +140,13 @@ async function bindDocument() {
       $("#document-count").textContent = editor.getText().length.toLocaleString() + " 字元";
       controls();
     };
-    editor = new NexusDocumentLib.Editor({ element: $("#document-editor"), extensions: documentExtensions(), content: state.document.content, editorProps: { attributes: { role: "textbox", "aria-label": "文件內容", "aria-multiline": "true", spellcheck: "false" }, transformPastedHTML: cleanDocumentHTML, handlePaste: (view, event) => {
+    editor = new NexusDocumentLib.Editor({ element: $("#document-editor"), extensions: documentExtensions(), content: state.document.content, editorProps: { attributes: { role: "textbox", "aria-label": "文件內容", "aria-multiline": "true", spellcheck: "false" }, transformPastedHTML: cleanDocumentHTML, handleDOMEvents: { keyup: (_view, event) => {
+      // Native caret movement completes before keyup, but selectionchange may
+      // still be suppressed by ProseMirror's focus handling. Synchronize now:
+      // a pending focus update must not put an old AllSelection back into DOM.
+      if (/^(Arrow(Left|Right|Up|Down)|Home|End|PageUp|PageDown)$/.test(event.key)) syncTextSelection();
+      return false;
+    } }, handlePaste: (view, event) => {
       const image = Array.from(event.clipboardData?.items || []).find((i) => i.type.startsWith("image/"));
       if (!image) return false;
       event.preventDefault();
