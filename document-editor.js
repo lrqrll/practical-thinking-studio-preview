@@ -90,7 +90,16 @@ async function bindDocument() {
   let editor = null, cancelled = false;
   // Tiptap focus() defers view.focus() to requestAnimationFrame. Toolbar
   // selection must be visible now, and must not refocus after later input.
-  const focusedChain = () => { editor.view.focus(); return editor.chain(); };
+  const focusedChain = () => {
+    // Native keyboard selectionchange may still be queued when a toolbar
+    // control fires. Preserve the visible range before focus restores state.
+    const view=editor.view,selection=window.getSelection(),model=editor.state.selection;
+    if(!model.node&&!model.$anchorCell&&selection?.anchorNode&&selection?.focusNode&&view.dom.contains(selection.anchorNode)&&view.dom.contains(selection.focusNode)){
+      const anchor=view.posAtDOM(selection.anchorNode,selection.anchorOffset),head=view.posAtDOM(selection.focusNode,selection.focusOffset);
+      if(anchor!==model.anchor||head!==model.head)editor.commands.setTextSelection({from:Math.min(anchor,head),to:Math.max(anchor,head)});
+    }
+    view.focus();return editor.chain();
+  };
   viewCleanup = () => {
     cancelled = true;
     editor?.destroy();
@@ -163,11 +172,11 @@ async function bindDocument() {
       const cmd = { bold: "toggleBold", italic: "toggleItalic", underline: "toggleUnderline", bulletList: "toggleBulletList", orderedList: "toggleOrderedList" }[b.dataset.docCommand];
       focusedChain()[cmd]().run();
     });
-    $("#doc-block").onchange = (e) => e.target.value === "paragraph" ? focusedChain().setParagraph().run() : focusedChain().setHeading({ level: Number(e.target.value) }).run();
-    $("#doc-font").onchange = (e) => e.target.value ? focusedChain().setFontFamily(e.target.value).run() : focusedChain().unsetFontFamily().run();
-    $("#doc-size").onchange = (e) => e.target.value ? focusedChain().setFontSize(e.target.value + "px").run() : focusedChain().unsetFontSize().run();
-    $("#doc-color").oninput = (e) => focusedChain().setColor(e.target.value).run();
-    $("#doc-align").onchange = (e) => focusedChain().setTextAlign(e.target.value).run();
+    $("#doc-block").onchange = (e) => { const value=e.target.value;value === "paragraph" ? focusedChain().setParagraph().run() : focusedChain().setHeading({ level: Number(value) }).run(); };
+    $("#doc-font").onchange = (e) => { const value=e.target.value;value ? focusedChain().setFontFamily(value).run() : focusedChain().unsetFontFamily().run(); };
+    $("#doc-size").onchange = (e) => { const value=e.target.value;value ? focusedChain().setFontSize(value + "px").run() : focusedChain().unsetFontSize().run(); };
+    $("#doc-color").oninput = (e) => { const value=e.target.value;focusedChain().setColor(value).run(); };
+    $("#doc-align").onchange = (e) => { const value=e.target.value;focusedChain().setTextAlign(value).run(); };
     $("#doc-clear").onclick = () => focusedChain().unsetAllMarks().clearNodes().run();
     $("#doc-undo").onclick = () => focusedChain().undo().run();
     $("#doc-redo").onclick = () => focusedChain().redo().run();
