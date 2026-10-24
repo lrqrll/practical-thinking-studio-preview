@@ -1,2 +1,2 @@
 'use strict';
-window.NEXUS_DEPLOYMENT=Object.freeze({"channel":"preview","commit":"cb7c8a595295eaf301ad629f1e48c646559eb71d","version":"3.2.1","source":"https://github.com/lrqrll/practical-thinking-studio/tree/cb7c8a595295eaf301ad629f1e48c646559eb71d"});
+window.NEXUS_DEPLOYMENT=Object.freeze({"channel":"preview","commit":"40141677e4e9bd7f700acc340478ec503e494c31","version":"3.3.0-rc.1","source":"https://github.com/lrqrll/practical-thinking-studio/tree/40141677e4e9bd7f700acc340478ec503e494c31"});
