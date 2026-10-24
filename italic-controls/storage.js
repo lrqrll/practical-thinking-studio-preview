@@ -1,5 +1,5 @@
 'use strict';
-const BRAND=Object.freeze({name:'NEXUS',version:'3.2.2-rc.1'});
+const BRAND=Object.freeze({name:'NEXUS',version:'3.2.2'});
 const DEPLOYMENT=Object.freeze(typeof window!=='undefined'&&window.NEXUS_DEPLOYMENT||{channel:'production',commit:null});
 const IS_PREVIEW=DEPLOYMENT.channel==='preview'||(typeof location!=='undefined'&&location.pathname.includes('/practical-thinking-studio-preview/'));
 const DATABASE_NAME=IS_PREVIEW?'nexus-preview-pr4-workspace':'nexus-workspace';
