@@ -1,0 +1,2 @@
+'use strict';
+window.NEXUS_DEPLOYMENT=Object.freeze({"channel":"preview","commit":"2aa814b113cff45d51b68e23e45c5556581a7e4f","version":"3.4.0-rc.1","source":"https://github.com/lrqrll/practical-thinking-studio/tree/2aa814b113cff45d51b68e23e45c5556581a7e4f"});
