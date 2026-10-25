@@ -1,0 +1,7 @@
+NEXUS 3.4.0 preview
+Source commit: dd09b5ed0bd67014914b03b19d0f7cbe26dd6d4f
+
+Open index.html in Chromium, or serve this directory with Python 3:
+python3 -m http.server 8011 --bind 127.0.0.1
+
+Preview storage is separate from the production workspace. Automatic saves stay in this browser. Use JSON export to keep a portable copy.
