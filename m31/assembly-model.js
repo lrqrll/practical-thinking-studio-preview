@@ -5,7 +5,7 @@ const NexusAssembly=(()=>{
  const known=(x,keys)=>{if(!x||typeof x!=='object'||Array.isArray(x)||Object.keys(x).some(k=>!keys.includes(k)))throw Error('來源含不支援的資料，請修正或重新選擇；原資料未變更');};
  function validate(kind,s){
   if(kind==='snapshot'){
-   if(!W.validSnapshot(s))throw Error('固定成果格式未知或金額無效，請修正或重新選擇');
+   if(!W.validSnapshot(s)||s.schemaVersion===1&&['customFields','fieldStructureVersion'].some(k=>Object.hasOwn(s,k)))throw Error('固定成果格式未知或金額無效，請修正或重新選擇');
    known(s,['id','schemaVersion','workbenchId','workbenchRev','name','createdAt','calculationVersion','currency','scale','quotes','need','decision','memo','sourceVersions','fieldStructureVersion','customFields']);
    known(s.memo,['text','checks','omittedImages']);s.memo.checks.forEach(c=>known(c,['text','done']));s.quotes.forEach(q=>{known(q,['name','amounts','totalMinor','scope','date','terms']);known(q.amounts,M.KEYS);if(!['','yes','no'].includes(q.scope)||!['','yes','no'].includes(q.date))throw Error('報價含未辨識確認狀態，請修正來源');});s.sourceVersions.forEach(v=>known(v,['moduleId','kind','fileId','rev','name']));
    (s.customFields||[]).forEach(c=>{known(c,['field','raw','value']);known(c.field,['id','label','type','options','deletedAt']);(c.field.options||[]).forEach(o=>known(o,['id','label']));});

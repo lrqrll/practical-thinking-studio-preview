@@ -1,2 +1,2 @@
 'use strict';
-window.NEXUS_DEPLOYMENT=Object.freeze({"channel":"preview","namespace":"m31-integrated","commit":"4992808262c81f12e21252b776384a517a130f68","version":"3.5.0-rc.1","source":"https://github.com/lrqrll/practical-thinking-studio/tree/4992808262c81f12e21252b776384a517a130f68"});
+window.NEXUS_DEPLOYMENT=Object.freeze({"channel":"preview","namespace":"m31-integrated","commit":"2eee4dc6040f8b9078baa6727d7c11922d8d996b","version":"3.5.0-rc.1","source":"https://github.com/lrqrll/practical-thinking-studio/tree/2eee4dc6040f8b9078baa6727d7c11922d8d996b"});
