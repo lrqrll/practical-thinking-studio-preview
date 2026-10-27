@@ -1,0 +1,201 @@
+{
+  "role": "開發者候選HTTPS逐資產驗證",
+  "M": "8df0db6112394e87876fe0358bbd370d0f78e78f",
+  "site": "https://lrqrll.github.io/practical-thinking-studio-preview/m32/",
+  "assets": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "OPEN-PREVIEW.txt": {
+      "bytes": 334,
+      "sha256": "67dcd7304ac7866e62340bf04d97537f239a88dd37f9763be362ac927684565a"
+    },
+    "PDF-FONT-OFL.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "PDFMAKE-LICENSE.txt": {
+      "bytes": 1134,
+      "sha256": "963c9bfe4117623556e66c36524176bf38948b749e983c35af93c961caad8ce9"
+    },
+    "app.js": {
+      "bytes": 182,
+      "sha256": "1d97e26387430b4cdc98633118b565fd095a8012b947e4083e6ad9c64ba976de"
+    },
+    "assembly-model.js": {
+      "bytes": 5780,
+      "sha256": "d17f3ba314dc21ef32f15d9ee53bc6c8398096e6a10bc735c6f88abbf699b9ba"
+    },
+    "assembly-ui.js": {
+      "bytes": 12189,
+      "sha256": "512674f85f64ccd5e1f8447b5d9e5a30fa257b36eec32def7bea451cab33d74c"
+    },
+    "backup-format.js": {
+      "bytes": 3329,
+      "sha256": "07871371a9e1549a61e542b7365b8b53705a1be8701502c69b2b97be129d6c25"
+    },
+    "deployment.js": {
+      "bytes": 289,
+      "sha256": "5d8de2418d96e4fb300932907220e8ec9b7e2753f7f584881ac121d7ba156ecb"
+    },
+    "document-editor.js": {
+      "bytes": 27903,
+      "sha256": "bf8f1ea6e2e4637a3c8dfb0cb201ed61209466c5b0374a3f902d8e9d5e9dce21"
+    },
+    "document-export.js": {
+      "bytes": 6919,
+      "sha256": "604ec642965a81ded903f9816d66ee9ebb7bb663ee32f2080dd7ac245537a697"
+    },
+    "document-model.js": {
+      "bytes": 6323,
+      "sha256": "ab1f22270511b8c8f4759d9b1bd12dd9070105c16da753e97d8d98c1558ebe6e"
+    },
+    "document-vendor-LICENSES.txt": {
+      "bytes": 172868,
+      "sha256": "c8a054540ff155c5db5b6f2d9c09d06abfaca7414af309f64c8f7c772451212d"
+    },
+    "document-vendor.js": {
+      "bytes": 555051,
+      "sha256": "c220bb396cb9baa4f8a5d86cf3ff45eea182b7f1d2c7285b544c76922bea8d1a"
+    },
+    "docx-vendor.js": {
+      "bytes": 1329743,
+      "sha256": "1c7a1e673d252daae7875c01e5a6164a3e9640c74e98ccda853a941fd259ad26"
+    },
+    "excel-export.js": {
+      "bytes": 4751,
+      "sha256": "2d7dd7bc082dc91b7f63ce7e2ff39938697329bd88933f6a91fe179e0a87b282"
+    },
+    "field-model.js": {
+      "bytes": 9039,
+      "sha256": "0e2ce73b32d3c0d56c9b0c03024a5c56ed2e6893b69cda43be4b899404135051"
+    },
+    "field-ui.js": {
+      "bytes": 16147,
+      "sha256": "f18169ea0799688750ed3a50f6cfa67b9de20e7b65551e263142c179a30450f0"
+    },
+    "index.html": {
+      "bytes": 3307,
+      "sha256": "bab0b08c57452941289c1f04a5e35a0c7a4b40c8a3b4b7f3034b020891a13881"
+    },
+    "local-files.js": {
+      "bytes": 3995,
+      "sha256": "e57535a770d03d5afde96bc11fa0eaacf27c82090c0ec21c2c76cee255a49988"
+    },
+    "mammoth-vendor.js": {
+      "bytes": 405060,
+      "sha256": "92914a3708cfdf1e62cb553d1856a7fedab21da83d8ee82845de2f897b368cab"
+    },
+    "media-model.js": {
+      "bytes": 2260,
+      "sha256": "e3d55a399a337061e72b22c3edbf237189438629b9baf185286441129e198775"
+    },
+    "media-tools.js": {
+      "bytes": 10076,
+      "sha256": "5fccbd91040a36e84bec45475c890ff23969ae34218eb7ab7c231f642f15efdc"
+    },
+    "money-model.js": {
+      "bytes": 1976,
+      "sha256": "2bbf17372fb2192743f331b3379126631060d5c27857589d388119ff3ee88535"
+    },
+    "pdf-export.js": {
+      "bytes": 1173,
+      "sha256": "3cb75295e414c1789473d63fb603c69479d57ddceb754a8aab67e6a9c68b25b1"
+    },
+    "pdf-font-coverage.json": {
+      "bytes": 124960,
+      "sha256": "cd2eb8e911f9387c8c37dd4ae3dfdd1e845c3d11bf1d1ad93cc06eefdd7b88a1"
+    },
+    "pdf-model.js": {
+      "bytes": 5262,
+      "sha256": "4b552e0e5ca58bbc23b3aa7d9265367837f145b5978a1dbe5ed4fe940d72fe95"
+    },
+    "pdf-noto-tc-bold.ttf": {
+      "bytes": 7143740,
+      "sha256": "4adc5ee4a09121f410df28f39a88f9cfb0e468b5e4217e2210c50c280145dab6"
+    },
+    "pdf-noto-tc-regular.ttf": {
+      "bytes": 7149204,
+      "sha256": "4bcb27c73e68b790d3343ba1a057c6c358b735ec18246935cd35f057b32ea63c"
+    },
+    "pdf-worker.js": {
+      "bytes": 2370,
+      "sha256": "4f06193023cbe5d2ad06cf39a3eb002809c6c388774f586b00104b65851749ea"
+    },
+    "pdfmake-vendor.js": {
+      "bytes": 1399635,
+      "sha256": "4410187c36ed6dd8cbfbaeea5b6fab6244238b3479c6de1cfe125d2c61fc2ba0"
+    },
+    "ptm-grotesk.woff2": {
+      "bytes": 75248,
+      "sha256": "99c47d599d16097e764db35eb921f3ad5a9a579853cb7d5f42b71de567004fd7"
+    },
+    "ptm-tc.woff2": {
+      "bytes": 330692,
+      "sha256": "2aaabff0bab803fd961aa72ab023e8d41fe9e487b2428e7601d2831caaf543ec"
+    },
+    "purify-vendor.js": {
+      "bytes": 29828,
+      "sha256": "cd37898f9782adf54820c413191b5691803f0f137c799d6edcfd38523b4c2c31"
+    },
+    "sheetjs-LICENSE.txt": {
+      "bytes": 11355,
+      "sha256": "4d2a38ac35cda06a555c84074a819d413339cd3691b822cae50f8f322fe01f64"
+    },
+    "storage.js": {
+      "bytes": 25020,
+      "sha256": "b11803effd1436ecaba21108b2a7ea8379372331ac220a2de6d9eebd106b532a"
+    },
+    "style.css": {
+      "bytes": 26215,
+      "sha256": "f6bff28cc60fb45fc14e6ce9eaa609d50900afecbf1d4d65c40fb776685c9c3f"
+    },
+    "time-model.js": {
+      "bytes": 4938,
+      "sha256": "e37092a0c5dc49c508e03ce4b0e76bcc365903b56c5e1d7486f5144a059341c8"
+    },
+    "time-records.css": {
+      "bytes": 604,
+      "sha256": "224c23b50bd0c889a7ea1f1d23ecf5ed6753def3362cbf8384c8c6c389f80002"
+    },
+    "time-ui.js": {
+      "bytes": 6564,
+      "sha256": "52d66b69c81889ebdc09e47fb279d8c1cab24a6f292eab3302088ef96e561a66"
+    },
+    "tool-registry.js": {
+      "bytes": 1792,
+      "sha256": "3d2d5af7b2bbc782848fdf8cb6c1dab63e3a493a321cb4af91e456ac039c91c5"
+    },
+    "tools-core.js": {
+      "bytes": 18930,
+      "sha256": "d65e4d06b6c90e642dba0f9c8305a5ecf37fd7b8f74595fd0dc2be71d63dc4e7"
+    },
+    "workbench-model.js": {
+      "bytes": 6596,
+      "sha256": "685fee6dcc52743f31e482a2abf45a9f1b9261cb8d65ea13553597ccd0e8c169"
+    },
+    "workbench-ui.js": {
+      "bytes": 11413,
+      "sha256": "7bbfe3cf5a67b8485454628180cbde83e22d482407b310119f885475469e6b9a"
+    },
+    "workbench.js": {
+      "bytes": 9887,
+      "sha256": "7b4b8b5df52ab93762d185b4ef2d4c611b0c165da2851afefbe284c63a881092"
+    },
+    "workspace.js": {
+      "bytes": 26831,
+      "sha256": "7eedf6a0a11a650718656b51c1bce90862fb6da66f5d43d82f347937f62afdaf"
+    },
+    "xlsx.full.min.js": {
+      "bytes": 951904,
+      "sha256": "cc015130aa8521e7f088f88898eba949ccdcbfb38df0bd129b44b7273c3a6f41"
+    }
+  },
+  "identity": {
+    "channel": "preview",
+    "commit": "8df0db6112394e87876fe0358bbd370d0f78e78f",
+    "version": "3.6.0-rc.1",
+    "db": "nexus-preview-m32-integrated-workspace"
+  }
+}

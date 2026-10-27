@@ -1,0 +1,11 @@
+{
+  "node": "v24.19.0",
+  "os": "PRETTY_NAME=\"Debian GNU/Linux 13 (trixie)\"\nNAME=\"Debian GNU/Linux\"\nVERSION_ID=\"13\"\nVERSION=\"13 (trixie)\"\nVERSION_CODENAME=trixie\nDEBIAN_VERSION_FULL=13.6\nID=debian\nHOME_URL=\"https://www.debian.org/\"\nSUPPORT_URL=\"https://www.debian.org/support\"\nBUG_REPORT_URL=\"https://bugs.debian.org/\"\n",
+  "browser": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "poppler": "pdfinfo version 26.05.0\nCopyright 2005-2026 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC",
+  "TLSIgnored": false,
+  "testRetries": 0,
+  "sensitiveNetworkHeaders": [],
+  "fixture": "synthetic only, fresh browser context",
+  "PDFComparison": "pdftotext -raw, remove generated page numbers and layout whitespace, exact full saved documentText equality; raw/layout files retained"
+}

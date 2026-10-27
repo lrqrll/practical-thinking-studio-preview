@@ -1,0 +1,4 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+BZZZZZ+NEXUSNotoTC-Bold              CID TrueType      Identity-H       yes yes yes     10  0
+CZZZZZ+NEXUSNotoTC-Regular           CID TrueType      Identity-H       yes yes yes     11  0

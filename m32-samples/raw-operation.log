@@ -1,0 +1,79 @@
+{
+  "role": "開發者補充實際操作（非獨立QA）",
+  "product": "8df0db6112394e87876fe0358bbd370d0f78e78f",
+  "site": "https://lrqrll.github.io/practical-thinking-studio-preview/m32/",
+  "namespace": "nexus-preview-m32-integrated-workspace",
+  "stats": {
+    "loadMs": 2240,
+    "generationMs": 555,
+    "bytes": 47151,
+    "pages": 2,
+    "checkedLines": 72,
+    "fileId": "fe647599-3a65-4fcb-b21e-0f704a6ffdbb",
+    "rev": 1
+  },
+  "sourceRecordsUnchanged": true,
+  "fixedSnapshotsUnchanged": true,
+  "fixture": {
+    "bytes": 13593,
+    "sha256": "6fa053d47cd2ce8c0d62f590edd8c51ae3b15098349db2feb4a0f7c48c4c0bd8"
+  },
+  "toolSha256": "9f0205b98939149d1f3117f9bde904c5ac93cb4d9bb51c00c332c15c8669e8df",
+  "outputs": [
+    {
+      "file": "assembled-pdf-status.png",
+      "bytes": 221066,
+      "sha256": "a9880ed9798c05c0b60682302a01c9aea82d4d24950e1bff72b92febf748c67c"
+    },
+    {
+      "file": "assembled-quotes-expected-text.txt",
+      "bytes": 1606,
+      "sha256": "8017f6adb1379da837366c336e6ff6ecc596333ed7c35365d5097b84481f6b88"
+    },
+    {
+      "file": "assembled-quotes-fonts.txt",
+      "bytes": 376,
+      "sha256": "da6ab3af8e2871f210a0cd3d130bb2e732eea9ed1b80eea7bf7bf1f0141d7f87"
+    },
+    {
+      "file": "assembled-quotes-page-1.png",
+      "bytes": 145717,
+      "sha256": "a92f2cb8c581f7bf7ff2b9d77d175fc1dbef12c7d0319ed6e225485873e0ebc2"
+    },
+    {
+      "file": "assembled-quotes-page-2.png",
+      "bytes": 111635,
+      "sha256": "b1e3d87046d0310bb1eff59ced86dc484852e057a9e1fee658a9667b5b2464db"
+    },
+    {
+      "file": "assembled-quotes-raw-text.txt",
+      "bytes": 1647,
+      "sha256": "fc706914716a4e645094653c846da6f4bcae3f00bf105d765521f51f8371a6da"
+    },
+    {
+      "file": "assembled-quotes-text.txt",
+      "bytes": 2261,
+      "sha256": "4700cfa373eb7abd979c9f0344b0b5643f361f408d338e75bb42cbf88d0ae6ff"
+    },
+    {
+      "file": "assembled-quotes.pdf",
+      "bytes": 47151,
+      "sha256": "a71ff13cf789391a10e42f6068e97e08197e86736b88ddeab991cc07e921e39f"
+    },
+    {
+      "file": "assembly-real-quotes-390.png",
+      "bytes": 300548,
+      "sha256": "385373c9d80588cd3e51d883992873cfae28b733b24d0ed47d0448c8b592db8a"
+    },
+    {
+      "file": "c1-p1-001-繁體中文報價決策成果.pdf",
+      "bytes": 47151,
+      "sha256": "a71ff13cf789391a10e42f6068e97e08197e86736b88ddeab991cc07e921e39f"
+    },
+    {
+      "file": "c1-p1-final-screen.png",
+      "bytes": 221116,
+      "sha256": "69d9b1511a40bbb566875db61df58dec67636652c2110bd9cd332a7db56b6cd7"
+    }
+  ]
+}
