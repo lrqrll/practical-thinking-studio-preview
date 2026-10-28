@@ -1,5 +1,5 @@
 NEXUS 3.8.0-rc.1 preview
-Source commit: 2a422adad275532e272ecc3f6d00b5be8f152522
+Source commit: a0a8f7e7189625eae3987ea9bb6b3d859a72c18b
 
 Open index.html in Chromium, or serve this directory with Python 3:
 python3 -m http.server 8011 --bind 127.0.0.1
