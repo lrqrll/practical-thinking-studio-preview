@@ -1,0 +1,261 @@
+{
+  "role": "開發者取證完整性檢查（非獨立QA）",
+  "M": "c712bd62c7a77d812542d1138f2edd2ef0045f00",
+  "indexes": 36,
+  "responses": 2748,
+  "downloads": 30,
+  "reports": [
+    {
+      "index": "assembly-assembled-actual--c8127-nput-and-downloadable-draft/monitor-index.json",
+      "contexts": 1,
+      "pages": 2,
+      "responses": 111,
+      "errors": 0
+    },
+    {
+      "index": "assembly-assembly-two-sour-4d46c-olated-complete-restore-390/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 185,
+      "errors": 0
+    },
+    {
+      "index": "assembly-assembly-two-sour-71d1b-lated-complete-restore-1280/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 185,
+      "errors": 0
+    },
+    {
+      "index": "assembly-selection-cancell-b1445-urce-never-create-half-file/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "assembly-source-HTML-is-li-023fb-e-further-editing-continues/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 74,
+      "errors": 0
+    },
+    {
+      "index": "categories-organize-cards--5b2ed--unlink-without-copies-1280/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "categories-organize-cards--fa373-e-unlink-without-copies-390/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "categories-organize-failed-08f70-ssing-sources-unlink-safely/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 99,
+      "errors": 0
+    },
+    {
+      "index": "categories-organize-transa-89c13-urce-history-and-v4-restore/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 99,
+      "errors": 0
+    },
+    {
+      "index": "categories-selected-select-a2b1f-ithout-unrelated-data-false/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 165,
+      "errors": 0
+    },
+    {
+      "index": "categories-selected-select-edd0a-without-unrelated-data-true/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 165,
+      "errors": 0
+    },
+    {
+      "index": "document-save-drain-CJK-vi-2cb8d-fter-save-reopen-and-reload/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 74,
+      "errors": 0
+    },
+    {
+      "index": "document-save-drain-actual-32c0d-waits-for-an-in-flight-save/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 74,
+      "errors": 0
+    },
+    {
+      "index": "pdf-PDF-missing-glyph-canc-d6306-uota-stop-output-then-retry/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 55,
+      "errors": 0
+    },
+    {
+      "index": "pdf-PDF-uses-frozen-saved-rev-while-editing-continues/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 80,
+      "errors": 0
+    },
+    {
+      "index": "pdf-actual-PDF-Chinese-sel-105f3-d-font-repeat-header-single/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 43,
+      "errors": 0
+    },
+    {
+      "index": "pdf-actual-PDF-Chinese-sel-69e22-ed-font-repeat-header-multi/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 43,
+      "errors": 0
+    },
+    {
+      "index": "time-records-time-records--24588--histories-and-editable-CSV/monitor-index.json",
+      "contexts": 2,
+      "pages": 2,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "time-records-time-records--3a063-eal-CSV-and-accessible-1280/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "time-records-time-records--55638-and-CAS-without-overwriting/monitor-index.json",
+      "contexts": 1,
+      "pages": 2,
+      "responses": 132,
+      "errors": 0
+    },
+    {
+      "index": "time-records-time-records--ca0e3-real-CSV-and-accessible-390/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "time-records-time-type-sup-5baf7-tory-and-all-original-tools/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "tools-budget-invalid-input-757a3-sted-and-independent-values/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 67,
+      "errors": 0
+    },
+    {
+      "index": "tools-minutes-edit-reload--68450-ependent-copy-escaped-input/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "tools-note-rejects-unsupported-image-without-data-mutation/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "tools-notes-edit-reload-ex-13652-ependent-copy-escaped-input/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "tools-quotes-edit-reload-e-67e9e-ependent-copy-escaped-input/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "tools-quotes-reject-negative-costs-in-result/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "tools-report-edit-reload-e-6ff49-ependent-copy-escaped-input/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "tools-slides-edit-reload-e-420a9-ependent-copy-escaped-input/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "tools-tasks-add-update-sor-6bed4-nd-CSV-injection-protection/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 66,
+      "errors": 0
+    },
+    {
+      "index": "visual-system-real-shell-d-20371-nd-backup-light-dark-at-360/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "visual-system-real-shell-d-c6b11-nd-backup-light-dark-at-390/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "visual-system-real-shell-d-c6c08-d-backup-light-dark-at-1440/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "visual-system-real-shell-d-eddff-nd-backup-light-dark-at-768/monitor-index.json",
+      "contexts": 1,
+      "pages": 3,
+      "responses": 33,
+      "errors": 0
+    },
+    {
+      "index": "visual-system-system-appea-45808-nt-DOM-marks-while-focusing/monitor-index.json",
+      "contexts": 1,
+      "pages": 1,
+      "responses": 107,
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "role": "開發者原始HTTPS取證，非獨立QA",
+  "product": "c712bd62c7a77d812542d1138f2edd2ef0045f00",
+  "run": 40658910604,
+  "files": {
+    "m34-https.json": {
+      "bytes": 3726075,
+      "sha256": "8bbaaa18f5ed7e28ce90c9551ecdded6d6736984ac7dda9d4e18a6e4e0dfe288",
+      "originalPath": "test-results/m34-https.json"
+    },
+    "m34-selection.json": {
+      "bytes": 335727,
+      "sha256": "a6a26ee03a8936e463f4dbaf78980c0cd6cea3d288effe6efc428e1d2e5103ae",
+      "originalPath": "test-results/m34-selection.json"
+    },
+    "m34-full.json": {
+      "bytes": 2673770,
+      "sha256": "1ac6716f893f23d8bbd0b284269b58bd6d41300d3cf93401dd465145a932b7af",
+      "originalPath": "test-results/m34-full.json"
+    },
+    "m34-integrity.json": {
+      "bytes": 7049,
+      "sha256": "697d2836553410dbe3ac7d58801d2b19500e319aa84e23f6d25195b31513327b",
+      "originalPath": "environment-evidence/m34-integrity.json"
+    },
+    "candidate-assets.json": {
+      "bytes": 7347,
+      "sha256": "dbc759c57a6308cb3b8387b5db9dc0ac62bf10ea90b803f8b05694c4e2513c46",
+      "originalPath": "environment-evidence/candidate-assets.json"
+    },
+    "dashboard-390-light.png": {
+      "bytes": 79863,
+      "sha256": "034384b3ec7b21e5a69da345579f0dfea76a01aa529960f331eaf7a0cbd92e32",
+      "originalPath": "m34-https-results/visual-system-real-shell-d-c6b11-nd-backup-light-dark-at-390/dashboard-390-light.png"
+    },
+    "dashboard-390-dark.png": {
+      "bytes": 79763,
+      "sha256": "5e717d0a5ba77fc699b96fbcb3a25d55bdf3b2ba23f21e35eea3e0e6bfb21982",
+      "originalPath": "m34-https-results/visual-system-real-shell-d-c6b11-nd-backup-light-dark-at-390/dashboard-390-dark.png"
+    },
+    "dashboard-1440-dark.png": {
+      "bytes": 106932,
+      "sha256": "4cc01021e21c264b376ce0a0766a4fdff5851fdde405c0e82b7ef67bce73eea6",
+      "originalPath": "m34-https-results/visual-system-real-shell-d-c6c08-d-backup-light-dark-at-1440/dashboard-1440-dark.png"
+    },
+    "dashboard-1440-light.png": {
+      "bytes": 104421,
+      "sha256": "b80ef00701b7837dfada0574c0f06c08d81179212f055f019f7ebfc2838675c3",
+      "originalPath": "m34-https-results/visual-system-real-shell-d-c6c08-d-backup-light-dark-at-1440/dashboard-1440-light.png"
+    }
+  }
+}
